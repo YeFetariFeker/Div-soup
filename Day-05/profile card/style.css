@@ -1,0 +1,25 @@
+body {
+    background-color: #7B68EE;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 16px;
+    background-color: #BA55D3;
+    border: 6px dashed #FF00FF;
+}
+
+h1, b {
+    color: #F5FFFA;
+    background-color: #BA55D3;
+    /* width: 200px;
+    height: 200px;     */
+}
+
+i {
+    color: blue;
+}
+
+
+

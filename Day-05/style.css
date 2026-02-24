@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+
+main {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 16px;
+  background-color: aquamarine;
+  border: 6px dashed blue;
+}
+
+
+/* To color two texts and  the header background*/
+h1, b {
+    color: green; /* color text */
+    background-color:aqua; /*color of background*/ 
+    /*height: 200px;*/
+    /*width: 200px;*/
+
+}
+
+
+/* color single text color*/
+i {
+    color: blue; 
+}
