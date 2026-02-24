@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> <!--Doucment about the web-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div Soup Starter</title>
+  </head>
+
+  
+    <!--
+      TASK 1:
+      Refactor this page from div-heavy structure to semantic HTML.
+
+      Replace divs with:
+      <header>, <nav>, <main>, <section>, <article>, <footer>
+
+      IMPORTANT:
+      - Do NOT change the text/content.
+      - You MAY keep class names.
+      - Keep exactly ONE <main>.
+    -->
+
+    <body> <!--Screen where content is displayed (THink of this like "paper" or screen)-->
+        <header class="top">  <!--Always the first element header cibtaubs kig..-->
+            <section class="branding">
+                <div class="logo">🌟</div>
+                <h3 class="title">NeXTStack Daily News</h3>
+                <p class="tagline">A fake site for practicing semantic HTML</p>
+            </section>
+
+            <ul class="menu"> <!--header contains menu navegation -->
+                <li class="link"><a href="#top">Home</a></li>
+                <li class="link"><a href="#stories">Stories</a></li>
+                <li class="link"><a href="#about">About</a></li>
+                <li class="link"><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <hr>
+
+        <main class="content"> <!-- Main element content line-->
+            <section class="intro" id="top"> <!--intro tells a section-->
+                <h1 class="heading">Welcome</h1> <!--the text element welcome so name it h1-->
+                <p class="text"> <!-- the word text tells it is parapgraph-->
+                    Today you’ll refactor a “div soup” page into semantic HTML so screen
+                    readers and teammates can understand the structure.
+                </p>
+            </section>
+
+            <div class="group" id="stories"> <!-- the class name group    tells a section for stories-->
+                <h1 class="heading">Top Stories</h1> <!-- New section header-->
+
+                <div class="cards">
+                    <article class="card">
+                        <h3 class="card-title">Story 1: Why HTML Structure Matters</h3> <!--sub titles-->
+                        <p class="card-body">
+                            Semantic tags provide meaning to the page structure, not styling.
+                        </p>
+                        <p class="card-meta">Posted: Monday</p>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card-title">Story 2: One &lt;main&gt; Per Page</h3><!--sub titles-->
+                        <p class="card-body">
+                                The &lt;main&gt; element helps assistive tech skip repeated
+                                content and find the primary content faster.
+                        </p>
+                        <p class="card-meta">Posted: Monday</p>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card-title">Story 3: Teams Love Clear Markup</h3> <!--sub titles-->
+                        <p class="card-body">
+                            Semantic HTML helps other developers quickly understand layout
+                            intent.
+                        </p>
+                        <p class="card-meta">Posted: Monday</p>
+                    </article>
+                </div>
+            </div>
+
+            <section class="group" id="about"> <!--the about section-->
+                <h1 class="heading">About This Page</h1>
+                <p class="text">
+                    This page is intentionally built with too many divs. Your goal is to
+                    refactor it into semantic HTML while keeping the content the same.
+                </p>
+            </section>
+
+            <section class="group" id="contact"> <!-- the contact section-->
+                <h1 class="heading">Contact</h1>
+                <p class="text">
+                    For now, this page has no form. We’ll build accessible forms later
+                    this week.
+                </p>
+            </section>
+        </main>
+
+      <footer class="bottom"> <!--Footer element-->
+        <p class="fineprint">© 2026 NeXTStack Practice Site</p>
+      </footer>
+
+  </body>
+</html>
